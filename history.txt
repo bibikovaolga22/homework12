@@ -1,0 +1,19 @@
+
+  254  cd /c/Users/bibik/HM12_GIT/homework12/
+  255  cd /c/Users/bibik/HM12_GIT
+  256  git clone https://github.com/bibikovaolga22/homework12
+  257  cd homework12/
+  258  git branch
+  259  git checkout -b feature
+  260  git add README.md
+  261  echo "This is first README.md file" > README.md
+  262  git add README.md
+  263  git add .gitignore
+  264  git commit -m " Changes have been added'
+  265  git commit -m 'Changes have been added'
+  266  git push -u origin feature
+  267  git commit --amend 
+  268  git log
+  269  git checkout main
+  270  git merge feature
+  271  history > history.txt
